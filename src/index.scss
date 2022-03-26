@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+@import "./assets/helpers/variables";
+@import "./assets/helpers/mixin";
+@import "./assets/components/header";
+@import "./assets/components/hero";
+@import "./assets/components/info";
+@import "./assets/components/graduate";
+@import "./assets/components/admission";
+@import "./assets/components/open";
+@import "./assets/components/features";
+@import "./assets/components/enrollee";
+@import "./assets/components/faculties";
+@import "./assets/components/banner";
+@import "./assets/components/eduForm";
+@import "./assets/components/detail";
+@import "./assets/components/profession";
+
+@import "./assets/components/footer";
+@import "./assets/scss/col";
+@import "./assets/scss/media";
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    overflow-x: hidden;
+    background: rgb(226, 226, 226);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+input {
+    padding: 23px 13px;
+    border: 1px solid #29166f;
+    box-sizing: border-box;
+    border-radius: 6px;
+    @include font(24px, 300, $text-blue);
+}
+
+button {
+    border: 3px solid $bg-green;
+    cursor: pointer;
+    background: $bg-green;
+    border-radius: 4px;
+    @include font(24px, 300, $text-white);
+    padding: 23px 40px;
+}
+
+button:hover {
+    background: transparent;
+    color: $text-blue;
+}
+
+.red {
+    background-color: #f85969;
+}
+
+.green {
+    background-color: #47bd93;
+}

@@ -1,0 +1,31 @@
+.hero {
+    margin-top: 16vh;
+    &__content {
+        @include flex(flex, center, space-between);
+    }
+    &__title {
+        @include font(96px, 400, $text-blue);
+    }
+    &__comission {
+        @include font(72px, 700, $text-green);
+    }
+    &__subtitle {
+        @include font(72px, 400, $text-blue);
+    }
+    &__descr {
+        @include font(32px, 300, $text-blue);
+    }
+    &__right {
+        position: relative;
+    }
+    &__logo {
+        position: absolute;
+        width: 960px;
+        top: -500px;
+        right: -700px;
+        z-index: -1;
+    }
+    &__bottom {
+        margin-top: 50px;
+    }
+}

@@ -1,0 +1,76 @@
+@media screen and(max-width: 578px) {
+    .col-4 {
+        width: 100%;
+    }
+    .faculties {
+        &__sector {
+            padding: 0 10px;
+        }
+        &__box-dub {
+            max-width: 100%;
+        }
+    }
+    .enrollee__title {
+        font-size: 50px;
+    }
+    .hero {
+        &__title {
+            font-size: 30px;
+        }
+        &__comission {
+            font-size: 26px;
+        }
+        &__subtitle {
+            font-size: 26px;
+        }
+        &__descr {
+            font-size: 16px;
+        }
+    }
+}
+
+@media screen and(max-width: 820px) {
+    .header {
+        &__content {
+            nav {
+                overflow-x: scroll;
+                padding: 20px 0;
+            }
+        }
+    }
+    .faculties {
+        &__name {
+            font-size: 13px;
+        }
+        &__item {
+            max-width: 50%;
+            margin-top: 50px;
+        }
+    }
+    .features__left {
+        display: none;
+    }
+}
+
+@media screen and(max-width: 1200px) {
+    .info {
+        &__top {
+            flex-wrap: wrap-reverse;
+        }
+        &__left, &__right {
+            max-width: 100%;
+        }
+    }
+}
+
+@media screen and(max-width: 1100px) {
+    iframe {
+        max-width: 100%;
+    }
+    .open__box {
+        max-width: 100%;
+    }
+    .open__sector {
+        flex-wrap: wrap;
+    }
+}

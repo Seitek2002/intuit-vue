@@ -1,0 +1,24 @@
+.banner {
+    background: $bg-blue;
+    padding-top: 100px;
+    &__title {
+        color: $text-white;
+        text-transform: uppercase;
+        font-size: 72px;
+    }
+    &__sector {
+        padding: 100px 0;
+        color: $text-white;
+        @include flex(flex, center, space-around);
+    }
+    &__name {
+        text-transform: uppercase;
+    }
+    &__box {
+        @include flex(flex, center, space-around);
+        max-width: 200px;
+    }
+    &__right {
+        margin-left: 20px;
+    }
+}

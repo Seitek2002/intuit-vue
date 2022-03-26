@@ -1,0 +1,19 @@
+.open{
+    &__title{
+        @include font(32px, 700, $text-blue);
+    }
+    &__descr{
+        @include font(16px, 300, $text-blue);
+    }
+    &__sector {
+        @include flex(flex, center, space-between);
+        margin-top: 30px;
+    }
+    &__name {
+        @include flex(flex, center, flex-start);
+        @include font(24px, 700, $text-green);
+    }
+    &__box{
+        max-width: 25%;
+    }
+}

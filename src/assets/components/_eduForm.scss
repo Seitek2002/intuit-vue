@@ -1,0 +1,15 @@
+.eduForm {
+    background: url("https://synergy.ru/assets/upload/v4/bg/edu-forms.jpg");
+    padding: 100px 0;
+    color: $text-white;
+    &__content {
+        display: flex;
+        justify-content: space-around;
+    }
+    &__item {
+        max-width: 35%;
+        background: yellow;
+        padding: 16px 24px;
+        box-sizing: border-box;
+    }
+}

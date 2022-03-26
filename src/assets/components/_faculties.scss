@@ -1,0 +1,65 @@
+.faculties {
+    margin-top: 100px;
+    &__title {
+        @include font(72px, 700, $text-blue);
+        margin-bottom: 40px;
+    }
+    &__info {
+        @include flex(flex, center, space-between, wrap);
+    }
+    &__item {
+        @include flex(flex, center, space-between);
+        max-width: 25%;
+        img {
+            margin-right: 20px;
+        }
+    }
+    &__sector {
+        @include flex(flex, center, space-around, wrap);
+        margin-top: 100px;
+    }
+    &__box {
+        padding: 28px 12px;
+        border-radius: 8px;
+        text-align: center;
+        background: #323232;
+        box-sizing: border-box;
+        margin-top: 40px;
+        height: 360px;
+        @include flex(flex, center, space-around);
+        flex-direction: column;
+        &-dub {
+            justify-content: space-between;
+        }
+    }
+    &__num {
+        @include font(32px, 700, $text-blue);
+    }
+    &__logo {
+        width: 238px;
+        height: 168px;
+    }
+    &__name {
+        @include font(16px, 700, $text-white);
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    &__link {
+        @include flex(flex, center, center);
+        margin-top: 15px;
+        cursor: pointer;
+        width: 80%;
+        padding: 5px;
+        text-decoration: none;
+        border: 0.0625rem solid $border-white;
+        border-radius: 0.25rem;
+        transition: 0.2s;
+        @include font(16px, 400, $text-white);
+
+        &:hover {
+            background-color: #47bd93;
+            border-color: #47bd93;
+        }
+    }
+}
+

@@ -1,0 +1,15 @@
+.admission {
+    margin: 100px 0;
+    &__content {
+        background: #ccc;
+        padding: 20px 40px;
+        border-radius: 5px;
+    }
+    &__title {
+        @include font(32px, 700, $text-blue);
+        margin-bottom: 20px;
+    }
+    &__form {
+        @include flex(flex, center, space-between, wrap);
+    }
+}

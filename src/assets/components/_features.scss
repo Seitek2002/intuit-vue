@@ -1,0 +1,43 @@
+.features {
+    margin-top: 100px;
+    &__title {
+        @include font(48px, 700, $text-blue);
+    }
+    &__icon {
+        width: 100px;
+        height: 100px;
+        background: $bg-blue;
+        border-radius: 100%;
+    }
+    &__item {
+        display: flex;
+        margin-top: 50px;
+        h3 {
+            margin: 32px 0;
+        }
+    }
+    &__left {
+        margin-right: 100px;
+    }
+    &__name {
+        @include font(32px, 700, $text-green);
+    }
+    &__detail{
+        @include font(18px, 700, $text-blue);
+        margin-top: 17px;
+        position: relative;
+        &::before {
+            position: absolute;
+            top: 0;
+            left: -20px;
+            width: 12px;
+            height: 12px;
+            border-radius: 100%;
+            border: 2px solid #a8abc1;
+            content: "";
+        }
+    }
+    &__descr {
+        @include font(18px, 400, $text-blue);
+    }
+}

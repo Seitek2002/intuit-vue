@@ -1,0 +1,13 @@
+@mixin font($size, $weight, $color: $text-black) {
+    font-size: $size;
+    font-weight: $weight;
+    line-height: normal;
+    color: $color;
+};
+
+@mixin flex($display, $align, $justify, $wrap: nowrap) {
+    display: $display;
+    align-items: $align;
+    justify-content: $justify;
+    flex-wrap: $wrap;
+};

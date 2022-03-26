@@ -1,0 +1,14 @@
+.graduate{
+    margin: 100px 0;
+    &__content{
+        @include flex(flex, center, space-between, wrap);
+    }
+    &__quantity{
+        @include font(32px, 700, $text-blue);
+        margin-left: 60px;
+    }
+    &__title {
+        @include font(24px, 300, $text-blue);
+        line-height: 40px;
+    }
+}

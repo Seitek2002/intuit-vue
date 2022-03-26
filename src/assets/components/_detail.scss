@@ -1,0 +1,9 @@
+.detail {
+    &__content {
+        @include flex(flex, center, space-between);
+        padding: 40px 0;
+    }
+    &__left, &__right {
+        max-width: 40%;
+    }
+}

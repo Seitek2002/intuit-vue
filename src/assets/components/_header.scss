@@ -1,0 +1,19 @@
+.header {
+    &__content {
+        @include flex(flex, center, space-between, wrap);
+    }
+    &__list {
+        display: flex;
+        align-items: center;
+    }
+    &__item {
+        margin-left: 30px;
+        a {
+            @include font(16px, 500, $text-blue);
+        }
+    }
+}
+
+.burger__wrap {
+    display: none;
+}

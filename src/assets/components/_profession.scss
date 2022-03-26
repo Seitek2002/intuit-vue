@@ -1,0 +1,28 @@
+.profession {
+    padding: 100px 0;
+    &__content {
+        @include flex(flex, center, space-around, wrap);
+    }
+    &__title {
+        @include font(48px, 700, $text-blue);
+        margin-bottom: 46px;
+    }
+    &__item {
+        max-width: 40%;
+        background: #fff;
+        border-radius: 5px;
+        padding: 20px 0;
+        margin-top: 40px;
+    }
+    &__text {
+        @include flex(flex, center, space-between);
+        padding: 0 20px;
+    }
+    &__institut {
+        @include font(12px, 300, $text-blue);
+        padding: 0 20px;
+    }
+    &__img {
+        max-width: 50%;
+    }
+}
