@@ -6,9 +6,9 @@ import Footer from "./components/Footer.vue";
 <template>
   <Header />
   <RouterView />
-  <Footer/>
+  <Footer />
 </template>
 
 <style lang="scss">
-  @import './index.scss';
+@import "./index.scss";
 </style>

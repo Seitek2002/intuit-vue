@@ -1,12 +1,6 @@
 <script setup></script>
 
 <template>
-  <!-- <header>
-    <nav>
-      <RouterLink to="/">Home</RouterLink>
-      <RouterLink to="/about">About</RouterLink>
-    </nav>
-  </header> -->
   <header class="header">
     <div class="container">
       <div class="header__content">
@@ -21,11 +15,15 @@
             </li>
             <li class="header__item"><a href="#contacts">Контакты</a></li>
             <li class="header__item">
-              <RouterLink to="s/faculty">Институты</RouterLink>
+              <RouterLink to="/faculty">Институты</RouterLink>
             </li>
-            <li class="header__item">Колледж</li>
-            <li class="header__item">Бакалавриат</li>
-            <li class="header__item">Магистратура</li>
+            <!-- <li class="header__item">Колледж</li> -->
+            <li class="header__item">
+              <RouterLink to="/undergraduate">Бакалавриат</RouterLink> 
+            </li>
+            <li class="header__item">
+              <RouterLink to="/postgraduate">Магистратура</RouterLink> 
+            </li>
           </ul>
         </nav>
       </div>
