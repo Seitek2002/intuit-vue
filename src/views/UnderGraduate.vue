@@ -1,7 +1,7 @@
 <script setup>
 import Banner from "../components/Banner.vue";
 import Detail from "../components/Detail.vue";
-import EduForm from "../components/eduForm.vue";
+import EduForm from "../components/EduForm.vue";
 import Profession from "../components/Profession.vue";
 import Admission from "../components/Admission.vue";
 </script>
